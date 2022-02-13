@@ -1,0 +1,23 @@
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\bin\Debug\net5.0\SDBlog.Core.deps.json
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\bin\Debug\net5.0\SDBlog.Core.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\bin\Debug\net5.0\ref\SDBlog.Core.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\bin\Debug\net5.0\SDBlog.Core.pdb
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\obj\Debug\net5.0\SDBlog.Core.csproj.AssemblyReference.cache
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\obj\Debug\net5.0\SDBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\obj\Debug\net5.0\SDBlog.Core.AssemblyInfoInputs.cache
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\obj\Debug\net5.0\SDBlog.Core.AssemblyInfo.cs
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\obj\Debug\net5.0\SDBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\obj\Debug\net5.0\SDBlog.Core.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\obj\Debug\net5.0\ref\SDBlog.Core.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Core\obj\Debug\net5.0\SDBlog.Core.pdb
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Core\bin\Debug\net5.0\SDBlog.Core.deps.json
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Core\bin\Debug\net5.0\SDBlog.Core.dll
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Core\bin\Debug\net5.0\ref\SDBlog.Core.dll
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Core\bin\Debug\net5.0\SDBlog.Core.pdb
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Core\obj\Debug\net5.0\SDBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Core\obj\Debug\net5.0\SDBlog.Core.AssemblyInfoInputs.cache
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Core\obj\Debug\net5.0\SDBlog.Core.AssemblyInfo.cs
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Core\obj\Debug\net5.0\SDBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Core\obj\Debug\net5.0\SDBlog.Core.dll
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Core\obj\Debug\net5.0\ref\SDBlog.Core.dll
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Core\obj\Debug\net5.0\SDBlog.Core.pdb

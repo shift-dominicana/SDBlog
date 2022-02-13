@@ -1,0 +1,5 @@
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Testing\obj\Debug\net5.0\SDBlog.Testing.csproj.AssemblyReference.cache
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Testing\obj\Debug\net5.0\SDBlog.Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Testing\obj\Debug\net5.0\SDBlog.Testing.AssemblyInfoInputs.cache
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Testing\obj\Debug\net5.0\SDBlog.Testing.AssemblyInfo.cs
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Testing\obj\Debug\net5.0\SDBlog.Testing.csproj.CoreCompileInputs.cache

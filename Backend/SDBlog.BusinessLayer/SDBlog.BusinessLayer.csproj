@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="FluentValidation" Version="10.3.0" />
+    <PackageReference Include="MailKit" Version="2.14.0" />
+    <PackageReference Include="MimeKit" Version="2.14.0" />
+    <PackageReference Include="StructureMap" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\Users\" />
+    <Folder Include="Mappers\Paginacion\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SDBlog.Core\SDBlog.Core.csproj" />
+    <ProjectReference Include="..\SDBlog.DataModel\SDBlog.DataModel.csproj" />
+  </ItemGroup>
+
+</Project>

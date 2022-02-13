@@ -1,0 +1,38 @@
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\bin\Debug\net5.0\SDBlog.Services.deps.json
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\bin\Debug\net5.0\SDBlog.Services.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\bin\Debug\net5.0\ref\SDBlog.Services.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\bin\Debug\net5.0\SDBlog.Services.pdb
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\bin\Debug\net5.0\SDBlog.BusinessLayer.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\bin\Debug\net5.0\SDBlog.Core.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\bin\Debug\net5.0\SDBlog.DataModel.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\bin\Debug\net5.0\SDBlog.BusinessLayer.pdb
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\bin\Debug\net5.0\SDBlog.DataModel.pdb
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\bin\Debug\net5.0\SDBlog.Core.pdb
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\obj\Debug\net5.0\SDBlog.Services.csproj.AssemblyReference.cache
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\obj\Debug\net5.0\SDBlog.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\obj\Debug\net5.0\SDBlog.Services.AssemblyInfoInputs.cache
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\obj\Debug\net5.0\SDBlog.Services.AssemblyInfo.cs
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\obj\Debug\net5.0\SDBlog.Services.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\obj\Debug\net5.0\SDBlog.Services.csproj.CopyComplete
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\obj\Debug\net5.0\SDBlog.Services.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\obj\Debug\net5.0\ref\SDBlog.Services.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.Services\obj\Debug\net5.0\SDBlog.Services.pdb
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\bin\Debug\net5.0\SDBlog.Services.deps.json
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\bin\Debug\net5.0\SDBlog.Services.dll
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\bin\Debug\net5.0\ref\SDBlog.Services.dll
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\bin\Debug\net5.0\SDBlog.Services.pdb
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\bin\Debug\net5.0\SDBlog.BusinessLayer.dll
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\bin\Debug\net5.0\SDBlog.Core.dll
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\bin\Debug\net5.0\SDBlog.DataModel.dll
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\bin\Debug\net5.0\SDBlog.BusinessLayer.pdb
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\bin\Debug\net5.0\SDBlog.Core.pdb
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\bin\Debug\net5.0\SDBlog.DataModel.pdb
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\obj\Debug\net5.0\SDBlog.Services.csproj.AssemblyReference.cache
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\obj\Debug\net5.0\SDBlog.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\obj\Debug\net5.0\SDBlog.Services.AssemblyInfoInputs.cache
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\obj\Debug\net5.0\SDBlog.Services.AssemblyInfo.cs
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\obj\Debug\net5.0\SDBlog.Services.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\obj\Debug\net5.0\SDBlog.Services.csproj.CopyComplete
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\obj\Debug\net5.0\SDBlog.Services.dll
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\obj\Debug\net5.0\ref\SDBlog.Services.dll
+C:\Users\Juan\Documents\1 - wk_directory\SDBlog-Backend\SDBlog.Services\obj\Debug\net5.0\SDBlog.Services.pdb

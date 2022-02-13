@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cab5171b-011e-4c43-94c8-8aab1ace2ca8": {
+      "ProjectGuid": "cab5171b-011e-4c43-94c8-8aab1ace2ca8",
+      "DisplayName": "SDBlog.BusinessLayer",
+      "ColorIndex": 0
+    },
+    "a23e603b-e1dd-478c-b29b-b77c7b14e997": {
+      "ProjectGuid": "a23e603b-e1dd-478c-b29b-b77c7b14e997",
+      "DisplayName": "SDBlog.Api",
+      "ColorIndex": 1
+    },
+    "5a36a986-3c65-49a7-a43b-67943766ed9f": {
+      "ProjectGuid": "5a36a986-3c65-49a7-a43b-67943766ed9f",
+      "DisplayName": "SDBlog.DataModel",
+      "ColorIndex": 2
+    },
+    "90f0717c-7ac8-4510-876b-2b897635aac5": {
+      "ProjectGuid": "90f0717c-7ac8-4510-876b-2b897635aac5",
+      "DisplayName": "SDBlog.Core",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

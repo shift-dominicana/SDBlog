@@ -1,0 +1,34 @@
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.BusinessLayer.deps.json
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.BusinessLayer.dll
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\ref\MEPyDBase.BusinessLayer.dll
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.BusinessLayer.pdb
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.Core.dll
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.DataModel.dll
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.Core.pdb
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.DataModel.pdb
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.csproj.AssemblyReference.cache
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.AssemblyInfoInputs.cache
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.AssemblyInfo.cs
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.csproj.CopyComplete
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.dll
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\ref\MEPyDBase.BusinessLayer.dll
+C:\wk_directory\BASE_API\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.pdb
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.BusinessLayer.deps.json
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.BusinessLayer.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\ref\MEPyDBase.BusinessLayer.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.BusinessLayer.pdb
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.Core.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.DataModel.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.Core.pdb
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\bin\Debug\net5.0\MEPyDBase.DataModel.pdb
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.AssemblyInfo.cs
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.csproj.CopyComplete
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\ref\MEPyDBase.BusinessLayer.dll
+C:\Users\Juan\Documents\1 - wk_directory\BASE_API - Copy\SIGASFL.Api\MEPyDBase.BusinessLayer\obj\Debug\net5.0\MEPyDBase.BusinessLayer.pdb
