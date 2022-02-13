@@ -1,30 +1,16 @@
 ﻿using AutoMapper;
-using Boundaries.Database.Repositories;
-using Core.Interfaces;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using SDBlog.BusinessLayer.Interfaces;
-using SDBlog.BusinessLayer.Interfaces.Files;
-using SDBlog.BusinessLayer.Interfaces.Mails;
-using SDBlog.BusinessLayer.Interfaces.Users;
-using SDBlog.BusinessLayer.Services.Files;
-using SDBlog.BusinessLayer.Services.Mails;
-using SDBlog.BusinessLayer.Services.Users;
-using SDBlog.BusinessLayer.Settings;
 using SDBlog.DataModel.Context;
 using System;
-using System.Linq;
-using SDBlog.Services.Interfaces.SSO;
-using SDBlog.Services.Implementations.SSO;
-using SDBlog.BusinessLayer.Interfaces.List;
-using SDBlog.BusinessLayer.Services.Listas;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace SDBlog.Api
 {
@@ -42,27 +28,19 @@ namespace SDBlog.Api
 
         public static void ServicesImplementations(this IServiceCollection services)
         {
-            services.AddTransient<IUserService, UserService>();
-            services.AddTransient<IMailService, MailService>();
-            services.AddTransient<IFileService, FileService>();
-            services.AddTransient<FileDirectoryService>();
-            //Auth
-            services.AddSingleton<IAuth, Auth>();
-            //Listas Genericas
-            services.AddTransient<IListService, ListService>();
+        
         }
 
         public static void RepositoriesImplementations(this IServiceCollection services)
         {
-            services.AddTransient<IFileRepository, FileRepository>();
-            services.AddTransient<IFileTypeRepository, FileTypeRepository>();
+            
         }
 
         public static void ConfigureAutomapper(this IServiceCollection services)
         {
             var config = new MapperConfiguration(cfg =>
             {
-                var mainAssembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(c => c.GetName().Name == "MEPyDBase.BusinessLayer");
+                var mainAssembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(c => c.GetName().Name == "SDBlog.BusinessLayer");
                 cfg.AddMaps(mainAssembly);
                 cfg.AllowNullCollections = true;
             });
@@ -91,14 +69,14 @@ namespace SDBlog.Api
             {
                 c.SwaggerDoc("v3", new OpenApiInfo
                 {
-                    Title = "MEPyDBase.API",
-                    Version = "v3",
-                    Description = "API de Comunicación del Core MEPyD",
+                    Title = "SDBlog.API",
+                    Version = "v1",
+                    Description = "API de Comunicación del Core SDBlog",
                     Contact = new OpenApiContact
                     {
-                        Name = "Ministerio de Economía Planificación y Desarrollo (MEPyD).",
-                        Email = "info@economia.gob.do",
-                        Url = new Uri("https://mepyd.gob.do/"),
+                        Name = "Blog de Shift Dominicana.",
+                        Email = "info@shiftdo.com.do",
+                        Url = new Uri("https://shiftdo.com.do/"),
                     }
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -147,27 +125,14 @@ namespace SDBlog.Api
 
         public static void ConfigureMail(this IServiceCollection services, IConfiguration configuration)
         {
-            services.Configure<MailSettings>(configuration.GetSection(nameof(MailSettings)));
+            
         }
 
         public static void ConfigureFile(this IServiceCollection services, IConfiguration configuration)
         {
 
-            services.Configure<FileSettings>(configuration.GetSection(nameof(FileSettings)));
 
-            //string principalPath = Configuration["File:PrincipalPath"];
-            //string principalFolderName = Configuration["File:PrincipalFolderName"];
-            //string maxFilesSizeInMb = Configuration["File:MaxFilesSizeInMb"];
-
-            //IEnumerable<string> allowedExtensions = Configuration.GetSection("File:AllowedExtensions").GetChildren().Select(extension => extension.Value).ToList();
-
-            //return new FileConfiguration
-            //{
-            //    PrincipalPath = principalPath,
-            //    PrincipalFolderName = principalFolderName,
-            //    AllowedExtensions = allowedExtensions,
-            //    MaxFileSize = Convert.ToInt64(maxFilesSizeInMb)
-            //};
+            
         }
 
         public static void ConfigureAuthentication(this IServiceCollection services, IConfiguration configuration)

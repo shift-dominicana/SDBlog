@@ -1,10 +1,7 @@
-﻿using SDBlog.Core.Base;
-using SDBlog.Core.Extensions;
-using SDBlog.DataModel.Autenticacion;
-using SDBlog.DataModel.Entities.Files;
-using SDBlog.DataModel.Entities.Users;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using SDBlog.Core.Base;
+using SDBlog.Core.Extensions;
 using System;
 using System.Linq;
 using System.Reflection;
@@ -41,11 +38,6 @@ namespace SDBlog.DataModel.Context
         }
 
         //DbSet
-        public virtual DbSet<User> Usuario { get; set; }
-        public DbSet<FileEntity> Files { get; set; }
-        public DbSet<FileType> FileTypes { get; set; }
-        //Login
-        public DbSet<LoginInfo> LoginInfos { get; set; }
 
         //DbSet
         public override int SaveChanges()
@@ -79,7 +71,7 @@ namespace SDBlog.DataModel.Context
                 {
                     //get entity
                     entry.Entity.CreadoPor = 1;
-                    var entidad = entry.Entity.ToString().Replace("RUDT.DataModel.Entities.", "");
+                    var entidad = entry.Entity.ToString().Replace("SDBlog.DataModel.Entities.", "");
                     entry.Entity.FechaRegistro = now;
                     entry.Entity.Estatus = EntityEstatus.Activo;
 
