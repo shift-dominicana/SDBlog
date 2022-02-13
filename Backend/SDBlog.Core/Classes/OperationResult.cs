@@ -1,36 +1,50 @@
-﻿using SDBlog.Core.Interfaces;
-using System;
+﻿using System;
+using System.Net;
 
 namespace SDBlog.Core.Classes
 {
-    public sealed class OperationResult<T> : IOperationResult<T>
+    public class OperationResult<T> : OperationResult
+    {
+        public T Result { get; set; }
+        public OperationResult()
+        {
+
+        }
+        public OperationResult(HttpStatusCode statusCode)
+        : base(statusCode)
+        {
+        }
+
+        public OperationResult(bool success, HttpStatusCode statusCode)
+            : base(success, statusCode)
+        {
+        }
+    }
+
+    public class OperationResult
     {
         public bool Success { get; set; }
-        public T Entity { get; set; }
-        public string ErrorMessage { get; set; }
-        public string ErrorDetail { get; set; }
-
-        private OperationResult(bool success, T entity, string errorMessage, string errorDetail)
+        public string Message { get; set; }
+        public HttpStatusCode StatusCode { get; set; }
+        public OperationResult()
         {
-            Success = success;
-            Entity = entity;
-            ErrorMessage = errorMessage;
-            ErrorDetail = errorDetail;
+            Success = false;
+            Message = String.Empty;
+            StatusCode = 0;
         }
 
-        private OperationResult(bool success, string errorMessage, string errorDetail)
+        public OperationResult(HttpStatusCode statusCode)
         {
-            Success = success;
-            ErrorMessage = errorMessage;
-            ErrorDetail = errorDetail;
+            Success = false;
+            StatusCode = statusCode;
+            Message = String.Empty;
         }
 
-        public static OperationResult<T> Ok() => new OperationResult<T>(true, default(T), "", "");
-
-        public static OperationResult<T> Ok(T entity) => new OperationResult<T>(true, entity, "", "");
-
-        public static OperationResult<T> Fail(string errorMessage) => new OperationResult<T>(false, default(T), errorMessage, "");
-
-        public static OperationResult<T> Fail(string errorMessage, string errorDetail) => new OperationResult<T>(false, default(T), errorMessage, errorDetail);
+        public OperationResult(bool success, HttpStatusCode statusCode)
+        {
+            Success = success;
+            StatusCode = statusCode;
+            Message = String.Empty;
+        }
     }
 }

@@ -5,15 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Base\EntityBase.cs" />
-    <Compile Remove="Base\IEntityAuditableBase.cs" />
-    <Compile Remove="PropertyValidators\InPropertyValidator.cs" />
-    <Compile Remove="PropertyValidators\UniquePropertyValidator.cs" />
+    <Compile Remove="Utilities\**" />
+    <EmbeddedResource Remove="Utilities\**" />
+    <None Remove="Utilities\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="PropertyValidators\" />
-    <Folder Include="Utilities\" />
+    <Compile Remove="Base\IEntityAuditableBase.cs" />
   </ItemGroup>
 
   <ItemGroup>

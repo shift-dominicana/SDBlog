@@ -19,9 +19,9 @@ namespace SDBlog.Core.Extensions
                    .Single(t => t.IsGenericMethod && t.Name == "SetSoftDeleteFilter");
 
         public static void SetSoftDeleteFilter<TEntity>(this ModelBuilder modelBuilder)
-            where TEntity : class, IEntityBase
+            where TEntity : EntityBase
         {
-            modelBuilder.Entity<TEntity>().HasQueryFilter(x => !x.Borrado);
+            modelBuilder.Entity<TEntity>().HasQueryFilter(x => !x.Deleted);
         }
     }
 }

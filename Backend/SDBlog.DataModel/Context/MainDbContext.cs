@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using SDBlog.Core.Base;
+using SDBlog.Core.Enums;
 using SDBlog.Core.Extensions;
 using System;
 using System.Linq;
@@ -31,7 +32,7 @@ namespace SDBlog.DataModel.Context
             // database is obtained, it automatically ignores the records that have 
             // the true value in "Borrado" field.
             foreach (var type in modelBuilder.Model.GetEntityTypes()
-                                .Where(type => typeof(IEntityBase).IsAssignableFrom(type.ClrType)))
+                                .Where(type => typeof(EntityBase).IsAssignableFrom(type.ClrType)))
             {
                 modelBuilder.SetSoftDeleteFilter(type.ClrType);
             }
@@ -64,24 +65,24 @@ namespace SDBlog.DataModel.Context
             DateTime now = DateTime.Now;
 
             // For every changed entity marked as "IEntidadAuditableBase" set the values for the audit properties
-            foreach (EntityEntry<EntityAuditableBase> entry in ChangeTracker.Entries<EntityAuditableBase>())
+            foreach (EntityEntry<EntityBase> entry in ChangeTracker.Entries<EntityBase>())
             {
                 // If the entity was added.
                 if (entry.State == EntityState.Added)
                 {
                     //get entity
-                    entry.Entity.CreadoPor = 1;
+                    entry.Entity.CreatedBy = 1;
                     var entidad = entry.Entity.ToString().Replace("SDBlog.DataModel.Entities.", "");
-                    entry.Entity.FechaRegistro = now;
-                    entry.Entity.Estatus = EntityEstatus.Activo;
+                    entry.Entity.CreatedDate = now;
+                    entry.Entity.Status = EntityEstatus.Active;
 
                 }
                 else if (entry.State == EntityState.Modified) // If the entity was updated
                 {
-                    entry.Entity.ModificadoPor = 1;
-                    entry.Entity.FechaModificacion = now;
-                    Entry(entry.Entity).Property(x => x.FechaRegistro).IsModified = false;
-                    Entry(entry.Entity).Property(x => x.CreadoPor).IsModified = false;
+                    entry.Entity.ModifiedBy = 1;
+                    entry.Entity.ModifiedDate = now;
+                    Entry(entry.Entity).Property(x => x.CreatedDate).IsModified = false;
+                    Entry(entry.Entity).Property(x => x.CreatedBy).IsModified = false;
                 }
             }
         }
