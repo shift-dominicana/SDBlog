@@ -3,6 +3,10 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 using SDBlog.Core.Base;
 using SDBlog.Core.Enums;
 using SDBlog.Core.Extensions;
+using SDBlog.DataModel.Entities.Categories;
+using SDBlog.DataModel.Entities.Posts;
+using SDBlog.DataModel.Entities.Tags;
+using SDBlog.DataModel.Entities.Users;
 using System;
 using System.Linq;
 using System.Reflection;
@@ -38,9 +42,6 @@ namespace SDBlog.DataModel.Context
             }
         }
 
-        //DbSet
-
-        //DbSet
         public override int SaveChanges()
         {
 
@@ -58,7 +59,6 @@ namespace SDBlog.DataModel.Context
             return base.SaveChangesAsync(cancellationToken);
         }
 
-        //DbSet
         private void AuditEntities()
         {
             // Get current date & time
@@ -86,6 +86,11 @@ namespace SDBlog.DataModel.Context
                 }
             }
         }
+
+        public DbSet<User> Users { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<Post> Posts { get; set; }
 
     }
 }
