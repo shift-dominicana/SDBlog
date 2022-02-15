@@ -22,7 +22,7 @@ namespace SDBlog.Api
 
             services.AddDbContext<MainDbContext>(opt =>
                 opt.UseSqlServer(configuration.GetConnectionString("MainDatabase"),
-                b => b.MigrationsAssembly("MEPyDBase.Api")));
+                b => b.MigrationsAssembly("SDBlog.Api")));
 
         }
 

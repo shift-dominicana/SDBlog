@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace SDBlog.BusinessLayer.Interfaces.Base
 {
-    public interface IRepositoryBase<TModel> where TModel : EntityBase, new()
+    public interface IBaseRepository<TModel> where TModel : EntityBase, new()
     {
         IQueryable<TModel> GetAll(params Expression<Func<TModel, object>>[] includeProperties);
         IQueryable<TModel> FindBy(Expression<Func<TModel, bool>> predicate, params Expression<Func<TModel, object>>[] includeProperties);

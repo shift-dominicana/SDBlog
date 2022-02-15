@@ -19,32 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\Categories\" />
-    <Folder Include="Dtos\Users\" />
-    <Folder Include="Dtos\Tags\" />
-    <Folder Include="Dtos\PostTags\" />
-    <Folder Include="Dtos\Posts\" />
-    <Folder Include="Interfaces\Categories\" />
-    <Folder Include="Interfaces\Users\" />
-    <Folder Include="Interfaces\Tags\" />
-    <Folder Include="Interfaces\PostTags\" />
-    <Folder Include="Interfaces\Posts\" />
-    <Folder Include="Mappers\Categories\" />
-    <Folder Include="Mappers\Users\" />
-    <Folder Include="Mappers\Tags\" />
-    <Folder Include="Mappers\PostTags\" />
-    <Folder Include="Mappers\Posts\" />
-    <Folder Include="Services\Categories\" />
-    <Folder Include="Services\Users\" />
-    <Folder Include="Services\Tags\" />
-    <Folder Include="Services\PostTags\" />
-    <Folder Include="Services\Posts\" />
     <Folder Include="Settings\" />
-    <Folder Include="Validators\Categories\" />
-    <Folder Include="Validators\Users\" />
-    <Folder Include="Validators\Tags\" />
-    <Folder Include="Validators\PostTags\" />
-    <Folder Include="Validators\Posts\" />
   </ItemGroup>
 
   <ItemGroup>

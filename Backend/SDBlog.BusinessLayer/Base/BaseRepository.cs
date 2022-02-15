@@ -8,6 +8,7 @@ using SDBlog.Core.Base;
 using SDBlog.Core.Classes;
 using SDBlog.Core.Extensions;
 using SDBlog.DataModel.Classes;
+using SDBlog.DataModel.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ using System.Threading.Tasks;
 namespace SDBlog.BusinessLayer.Repositories.Base
 {
     public class BaseRepository<TModel> :
-        IRepositoryBase<TModel>
+        IBaseRepository<TModel>
         where TModel : EntityBase, new()
     {
 
@@ -27,7 +28,7 @@ namespace SDBlog.BusinessLayer.Repositories.Base
         private IValidator<TModel> _validator;
 
 
-        public BaseRepository(DbContext context, IValidator<TModel> validator, IMapper mapper)
+        public BaseRepository(MainDbContext context, IValidator<TModel> validator, IMapper mapper)
         {
             _context = context;
             _dbSet = context.Set<TModel>();
@@ -773,42 +774,42 @@ namespace SDBlog.BusinessLayer.Repositories.Base
 
         }
 
-        Task<OperationResult> IRepositoryBase<TModel>.Add(TModel value)
+        Task<OperationResult> IBaseRepository<TModel>.Add(TModel value)
         {
             throw new NotImplementedException();
         }
 
-        Task<OperationResult> IRepositoryBase<TModel>.SaveAsync()
+        Task<OperationResult> IBaseRepository<TModel>.SaveAsync()
         {
             throw new NotImplementedException();
         }
 
-        IEnumerable<OperationResult> IRepositoryBase<TModel>.AddRange(IEnumerable<TModel> values)
+        IEnumerable<OperationResult> IBaseRepository<TModel>.AddRange(IEnumerable<TModel> values)
         {
             throw new NotImplementedException();
         }
 
-        OperationResult IRepositoryBase<TModel>.Update(TModel value)
+        OperationResult IBaseRepository<TModel>.Update(TModel value)
         {
             throw new NotImplementedException();
         }
 
-        IEnumerable<OperationResult> IRepositoryBase<TModel>.UpdateRange(IEnumerable<TModel> value)
+        IEnumerable<OperationResult> IBaseRepository<TModel>.UpdateRange(IEnumerable<TModel> value)
         {
             throw new NotImplementedException();
         }
 
-        OperationResult IRepositoryBase<TModel>.Remove(TModel value)
+        OperationResult IBaseRepository<TModel>.Remove(TModel value)
         {
             throw new NotImplementedException();
         }
 
-        Task<PageCollection<TModel>> IRepositoryBase<TModel>.GetPagedAsync(int page, int take, Func<IQueryable<TModel>, IOrderedQueryable<TModel>> orderBy, Expression<Func<TModel, bool>> predicate, Func<IQueryable<TModel>, IIncludableQueryable<TModel, object>> include)
+        Task<PageCollection<TModel>> IBaseRepository<TModel>.GetPagedAsync(int page, int take, Func<IQueryable<TModel>, IOrderedQueryable<TModel>> orderBy, Expression<Func<TModel, bool>> predicate, Func<IQueryable<TModel>, IIncludableQueryable<TModel, object>> include)
         {
             throw new NotImplementedException();
         }
 
-        PageCollection<TModel> IRepositoryBase<TModel>.GetPaged(int page, int take, Func<IQueryable<TModel>, IOrderedQueryable<TModel>> orderBy, Expression<Func<TModel, bool>> predicate, Func<IQueryable<TModel>, IIncludableQueryable<TModel, object>> include)
+        PageCollection<TModel> IBaseRepository<TModel>.GetPaged(int page, int take, Func<IQueryable<TModel>, IOrderedQueryable<TModel>> orderBy, Expression<Func<TModel, bool>> predicate, Func<IQueryable<TModel>, IIncludableQueryable<TModel, object>> include)
         {
             throw new NotImplementedException();
         }
