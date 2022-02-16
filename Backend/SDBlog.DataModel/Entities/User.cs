@@ -1,9 +1,8 @@
 ﻿using SDBlog.Core.Base;
-using SDBlog.DataModel.Entities.Posts;
 using System;
 using System.Collections.Generic;
 
-namespace SDBlog.DataModel.Entities.Users
+namespace SDBlog.DataModel.Entities
 {
     public class User : EntityBase
     {

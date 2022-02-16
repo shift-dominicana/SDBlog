@@ -773,45 +773,5 @@ namespace SDBlog.BusinessLayer.Repositories.Base
             };
 
         }
-
-        Task<OperationResult> IBaseRepository<TModel>.Add(TModel value)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<OperationResult> IBaseRepository<TModel>.SaveAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        IEnumerable<OperationResult> IBaseRepository<TModel>.AddRange(IEnumerable<TModel> values)
-        {
-            throw new NotImplementedException();
-        }
-
-        OperationResult IBaseRepository<TModel>.Update(TModel value)
-        {
-            throw new NotImplementedException();
-        }
-
-        IEnumerable<OperationResult> IBaseRepository<TModel>.UpdateRange(IEnumerable<TModel> value)
-        {
-            throw new NotImplementedException();
-        }
-
-        OperationResult IBaseRepository<TModel>.Remove(TModel value)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<PageCollection<TModel>> IBaseRepository<TModel>.GetPagedAsync(int page, int take, Func<IQueryable<TModel>, IOrderedQueryable<TModel>> orderBy, Expression<Func<TModel, bool>> predicate, Func<IQueryable<TModel>, IIncludableQueryable<TModel, object>> include)
-        {
-            throw new NotImplementedException();
-        }
-
-        PageCollection<TModel> IBaseRepository<TModel>.GetPaged(int page, int take, Func<IQueryable<TModel>, IOrderedQueryable<TModel>> orderBy, Expression<Func<TModel, bool>> predicate, Func<IQueryable<TModel>, IIncludableQueryable<TModel, object>> include)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

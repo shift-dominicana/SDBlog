@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using SDBlog.BusinessLayer.Dtos.Users;
-using SDBlog.DataModel.Entities.Users;
+using SDBlog.DataModel.Entities;
 
 namespace SDBlog.BusinessLayer.Mappers
 {

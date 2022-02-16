@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using SDBlog.DataModel.Entities;
 
-namespace SDBlog.DataModel.Entities.Users
+namespace SDBlog.DataModel.EntitiesConfig
 {
     public class UserConfig : IEntityTypeConfiguration<User>
     {

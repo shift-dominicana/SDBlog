@@ -1,8 +1,6 @@
 ﻿using SDBlog.Core.Base;
-using SDBlog.DataModel.Entities.Posts;
-using SDBlog.DataModel.Entities.Tags;
 
-namespace SDBlog.DataModel.Entities.PostTags
+namespace SDBlog.DataModel.Entities
 {
     public class PostTag : EntityBase
     {

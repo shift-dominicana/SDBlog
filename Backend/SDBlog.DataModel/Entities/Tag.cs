@@ -1,6 +1,6 @@
 ﻿using SDBlog.Core.Base;
 
-namespace SDBlog.DataModel.Entities.Tags
+namespace SDBlog.DataModel.Entities
 {
     public class Tag : EntityBase
     {

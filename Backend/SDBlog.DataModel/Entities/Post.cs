@@ -1,14 +1,8 @@
 ﻿using SDBlog.Core.Base;
-using SDBlog.DataModel.Entities.Categories;
-using SDBlog.DataModel.Entities.PostTags;
-using SDBlog.DataModel.Entities.Users;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SDBlog.DataModel.Entities.Posts
+namespace SDBlog.DataModel.Entities
 {
     public class Post : EntityBase
     {

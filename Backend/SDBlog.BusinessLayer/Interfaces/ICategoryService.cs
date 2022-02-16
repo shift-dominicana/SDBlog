@@ -1,5 +1,5 @@
 ﻿using SDBlog.BusinessLayer.Interfaces.Base;
-using SDBlog.DataModel.Entities.Categories;
+using SDBlog.DataModel.Entities;
 
 namespace SDBlog.BusinessLayer.Interfaces
 {

@@ -1,5 +1,5 @@
 ﻿using SDBlog.BusinessLayer.Validators.Base;
-using SDBlog.DataModel.Entities.Categories;
+using SDBlog.DataModel.Entities;
 
 namespace SDBlog.BusinessLayer.Validators
 {

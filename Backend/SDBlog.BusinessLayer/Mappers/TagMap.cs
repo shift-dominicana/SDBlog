@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using SDBlog.BusinessLayer.Dtos.Tags;
-using SDBlog.DataModel.Entities.Tags;
+using SDBlog.DataModel.Entities;
 
 namespace SDBlog.BusinessLayer.Mappers
 {

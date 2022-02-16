@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SDBlog.BusinessLayer.Validators;
+using SDBlog.BusinessLayer.Validators.Base;
+using System.Reflection;
 
 namespace SDBlog.Api
 {
@@ -21,7 +24,8 @@ namespace SDBlog.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.ConfigureCors();
-            //services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<UserValidator>());
+            services.AddControllers()
+                .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CategoryValidator>());
             services.ConfigureDbContext(Configuration);
             services.InternalServicesImplementations();
             services.RepositoriesImplementations();
