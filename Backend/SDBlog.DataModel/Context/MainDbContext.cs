@@ -5,6 +5,7 @@ using SDBlog.Core.Enums;
 using SDBlog.Core.Extensions;
 using SDBlog.DataModel.Entities.Categories;
 using SDBlog.DataModel.Entities.Posts;
+using SDBlog.DataModel.Entities.PostTags;
 using SDBlog.DataModel.Entities.Tags;
 using SDBlog.DataModel.Entities.Users;
 using System;
@@ -91,6 +92,7 @@ namespace SDBlog.DataModel.Context
         public DbSet<Category> Categories { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Post> Posts { get; set; }
+        public DbSet<PostTag> PostTags { get; set; }
 
     }
 }

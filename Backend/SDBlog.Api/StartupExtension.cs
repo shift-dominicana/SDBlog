@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using SDBlog.BusinessLayer.Interfaces;
+using SDBlog.BusinessLayer.Services;
 using SDBlog.DataModel.Context;
 using System;
 using System.Collections.Generic;
@@ -26,9 +28,13 @@ namespace SDBlog.Api
 
         }
 
-        public static void ServicesImplementations(this IServiceCollection services)
+        public static void InternalServicesImplementations(this IServiceCollection services)
         {
-        
+            services.AddTransient<ICategoryService, CategoryService>();
+            services.AddTransient<IPostService, PostService>();
+            services.AddTransient<IPostTagService, PostTagService>();
+            services.AddTransient<ITagService, TagService>();
+            services.AddTransient<IUserService, UserService>();
         }
 
         public static void RepositoriesImplementations(this IServiceCollection services)

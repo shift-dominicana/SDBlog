@@ -23,7 +23,7 @@ namespace SDBlog.Api
             services.ConfigureCors();
             //services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<UserValidator>());
             services.ConfigureDbContext(Configuration);
-            services.ServicesImplementations();
+            services.InternalServicesImplementations();
             services.RepositoriesImplementations();
             services.ConfigureAutomapper();
 
