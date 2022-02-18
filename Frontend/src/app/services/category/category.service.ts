@@ -10,7 +10,7 @@ import {Category} from 'src/app/models/Category'
 })
 export class CategoryService {
   private appUrl = environment.baseUrl
-  private apiUrl = 'api/ProductCategory'
+  private apiUrl = 'api/Category'
   
   httpOptions = {
     headers: new HttpHeaders({

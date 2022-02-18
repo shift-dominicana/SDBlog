@@ -1,8 +1,11 @@
+import internal from "stream";
+
 export class Base {
-    id: number;
-    createdBy: string;
-    creationDate: Date;
-    modificatedBy: string;
-    modificationDate: Date;
+    Id: number;
+    CreatedBy: internal;
+    CreatedDate: Date;
+    ModifiedDate: string;
+    ModifiedBy: internal;
+    Status: string;
     isDeleted: boolean;
 }

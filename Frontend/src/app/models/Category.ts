@@ -1,6 +1,5 @@
 import { Base } from 'src/app/models/Base';
 export class Category extends Base {
-    identificator: string;
+    name: string;
     description: string;
-    onTopInMainPage: boolean;
 }

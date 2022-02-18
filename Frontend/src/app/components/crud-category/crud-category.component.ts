@@ -26,7 +26,7 @@ export class CrudCategoryComponent implements OnInit {
 
     this.saveProfileForm = this.fb.group({
       id: [''],
-      identificator: [''],
+      name: [''],
       description: ['']
     });
 
@@ -101,7 +101,7 @@ export class CrudCategoryComponent implements OnInit {
     {
       this.saveProfileForm.patchValue({
         id: "",
-        identificator: "",
+        name: "",
         description: ""
       });
       this.SelectedCategory = null;
@@ -110,7 +110,7 @@ export class CrudCategoryComponent implements OnInit {
     {
       this.saveProfileForm.patchValue({
         id: category.id,
-        identificator: category.identificator,
+        name: category.name,
         description: category.description
       });
       this.SelectedCategory = category;
@@ -157,15 +157,15 @@ export class CrudCategoryComponent implements OnInit {
     if (this.SelectedCategory === null) 
     {
       let newCategory = new Category();
-      newCategory.id = 0;
-      newCategory.createdBy = 'Hiciano';
-      newCategory.creationDate = new Date();
-      newCategory.modificatedBy = 'Hiciano';
-      newCategory.modificationDate = new Date();
+      newCategory.Id = 0;
+      newCategory.CreatedBy = 1;
+      newCategory.CreatedDate = new Date();
+      newCategory.ModifiedBy = 1;
+      newCategory.ModifiedDate = new Date();
       newCategory.isDeleted = false;
-      newCategory.identificator = this.saveProfileForm.value.identificator; 
+      newCategory.Id = this.saveProfileForm.value.id; 
+      newCategory.name = this.saveProfileForm.value.name;
       newCategory.description = this.saveProfileForm.value.description;
-      newCategory.onTopInMainPage = false;
       this.createCategory(JSON.stringify(newCategory))
     }
     else

@@ -14,7 +14,7 @@
           <tbody>
             <tr *ngFor="let category of CategoryList">
               <td>{{ category.id }}</td>
-              <td>{{ category.identificator }}</td>
+              <td>{{ category.name }}</td>
               <td>{{ category.description }}</td>
               <td class="text-right">
                 <a
@@ -26,6 +26,7 @@
                   <i class="fe fe-edit mr-1"></i> Edit
                 </a>
               </td>
+
               <td class="text-right">
                 <a
                   href="javascript: void(0);"
@@ -47,7 +48,7 @@
 <ng-template #modalData let-modal>
   <div class="modal-header">
     <h4 class="modal-title" id="modal-basic-title">
-      Angular Bootstrap Modal Popup
+      Categoria
     </h4>
     <button
       type="button"
@@ -69,13 +70,13 @@
         disabled
       />
 
-      <label for="">Identificador</label>
+      <label for="">Nombre</label>
       <input
         type="text"
         class="form-control"
-        formControlName="identificator"
-        id="identificator"
-        placeholder="Enter Identificator"
+        formControlName="name"
+        id="name"
+        placeholder=""
       />
 
       <label for="">Descripcion</label>
