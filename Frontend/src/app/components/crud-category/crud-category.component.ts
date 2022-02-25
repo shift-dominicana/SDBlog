@@ -25,7 +25,7 @@ export class CrudCategoryComponent implements OnInit {
     this.getCategories();
 
     this.saveProfileForm = this.fb.group({
-      id: [''],
+      Id: [''],
       name: [''],
       description: ['']
     });
@@ -45,7 +45,7 @@ export class CrudCategoryComponent implements OnInit {
   }
 
   updateCategory(category: Category){
-    this.categoryService.update(category).subscribe(
+    this.categoryService.update(category, category.Id).subscribe(
       response =>{
         console.log(response);
         window.location.reload();
@@ -100,7 +100,7 @@ export class CrudCategoryComponent implements OnInit {
     if (category === "") 
     {
       this.saveProfileForm.patchValue({
-        id: "",
+        Id: "",
         name: "",
         description: ""
       });
@@ -109,11 +109,12 @@ export class CrudCategoryComponent implements OnInit {
     else 
     {
       this.saveProfileForm.patchValue({
-        id: category.id,
+        Id: category.id,
         name: category.name,
         description: category.description
       });
-      this.SelectedCategory = category;
+      this.SelectedCategory = category
+      this.SelectedCategory.Id = category.id;
     }
   }
 
@@ -134,6 +135,7 @@ export class CrudCategoryComponent implements OnInit {
     if (category !== "") 
     {
       this.SelectedCategory = category;
+      this.SelectedCategory.Id = category.id;
     }
   }
   
@@ -158,24 +160,20 @@ export class CrudCategoryComponent implements OnInit {
     {
       let newCategory = new Category();
       newCategory.Id = 0;
-      newCategory.CreatedBy = 1;
-      newCategory.CreatedDate = new Date();
-      newCategory.ModifiedBy = 1;
-      newCategory.ModifiedDate = new Date();
-      newCategory.isDeleted = false;
-      newCategory.Id = this.saveProfileForm.value.id; 
       newCategory.name = this.saveProfileForm.value.name;
       newCategory.description = this.saveProfileForm.value.description;
       this.createCategory(JSON.stringify(newCategory))
+      console.log(JSON.stringify(newCategory))
     }
     else
     {
       this.updateCategory(this.saveProfileForm.getRawValue())
+      console.log(JSON.stringify(this.saveProfileForm.getRawValue()))
     }
    }
 
    OnDelete(){
-    this.deleteCategory(this.SelectedCategory.id);
+    this.deleteCategory(this.SelectedCategory.Id);
     this.SelectedCategory = null;
     this.modalService.dismissAll();
    }

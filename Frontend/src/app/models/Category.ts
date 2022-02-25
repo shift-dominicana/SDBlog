@@ -1,5 +1,6 @@
-import { Base } from 'src/app/models/Base';
-export class Category extends Base {
+
+export class Category{
+    Id: number;
     name: string;
     description: string;
 }

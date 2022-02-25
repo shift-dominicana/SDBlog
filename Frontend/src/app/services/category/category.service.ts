@@ -3,6 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http'
 import { from, Observable } from 'rxjs'
 import { environment } from 'src/environments/environment'
 import {Category} from 'src/app/models/Category'
+import { element } from 'protractor';
 
 
 @Injectable({
@@ -27,8 +28,8 @@ export class CategoryService {
     return this.http.get(this.appUrl+this.apiUrl)
   }
 
-  update(data: any): Observable<any> {
-    return this.http.put(this.appUrl+this.apiUrl, data);
+  update(data: any, id: any): Observable<any> {
+    return this.http.put(this.appUrl+this.apiUrl+"/"+id, data);
   }
 
   create(data: any): Observable<any> {
