@@ -1,39 +1,45 @@
 <div>
-  <button
-    type="button"
-    class="btn btn-success margin-button"
-    (click)="openModal(modalData, '')"
-  >
-    Add
-  </button>
-  <div class="col-lg-7">
+
+  <div class="col-lg-6">
     <div class="card">
+
       <div class="card-body">
-        <h3 class="titulo">Categorias</h3>
+
+        <div class="form-group row">
+          <label class="col-sm-4 col-form-label title" >Categories</label>
+          <div class="col-sm-7">
+            <button type="button" class="btn btn-success to-right mt-3" (click)="openModal(modalData, '')">
+              Add
+            </button>
+          </div>
+        </div>
+
+
         <table class="table">
+          <thead>
+            <tr>
+              <th class="text-center" scope="col">Id</th>
+              <th class="text-center" scope="col">Name</th>
+              <th class="text-center" scope="col">Description</th>
+              <th class="text-center" scope="col"></th>
+              <th class="text-center" scope="col"></th>
+            </tr>
+          </thead>
           <tbody>
             <tr *ngFor="let category of CategoryList">
-              <td>{{ category.id }}</td>
-              <td>{{ category.name }}</td>
-              <td>{{ category.description }}</td>
+              <td class="text-center">{{ category.id }}</td>
+              <td class="text-center">{{ category.name }}</td>
+              <td class="text-center">{{ category.description }}</td>
               <td class="text-right">
-                <a
-                  href="javascript: void(0);"
-                  class="btn btn-info btn-sm"
-                  slot="actions"
-                  (click)="openModal(modalData, category)"
-                >
+                <a href="javascript: void(0);" class="btn btn-info btn-sm" slot="actions"
+                  (click)="openModal(modalData, category)">
                   <i class="fe fe-edit mr-1"></i> Edit
                 </a>
               </td>
 
               <td class="text-right">
-                <a
-                  href="javascript: void(0);"
-                  class="btn btn-danger btn-sm"
-                  slot="actions"
-                  (click)="openConfirmDelete(modalConfirm, category)"
-                >
+                <a href="javascript: void(0);" class="btn btn-danger btn-sm" slot="actions"
+                  (click)="openConfirmDelete(modalConfirm, category)">
                   <i class="fe fe-trash mr-1"></i> Remove
                 </a>
               </td>
@@ -50,43 +56,21 @@
     <h4 class="modal-title" id="modal-basic-title">
       Categoria
     </h4>
-    <button
-      type="button"
-      class="close"
-      aria-label="Close"
-      (click)="closeModalApp()"
-    >
+    <button type="button" class="close" aria-label="Close" (click)="closeModalApp()">
       <span aria-hidden="true">×</span>
     </button>
   </div>
   <div class="modal-body">
     <form [formGroup]="saveProfileForm" (ngSubmit)="onSubmit()">
       <label for="">Id</label>
-      <input
-        type="text"
-        class="form-control"
-        formControlName="Id"
-        id="Id"
-        disabled
-      />
+      <input type="text" class="form-control" formControlName="Id" id="Id" disabled />
 
       <label for="">Nombre</label>
-      <input
-        type="text"
-        class="form-control"
-        formControlName="name"
-        id="name"
-        placeholder=""
-      />
+      <input type="text" class="form-control" formControlName="name" id="name" placeholder="" />
 
       <label for="">Descripcion</label>
-      <input
-        type="text"
-        class="form-control"
-        formControlName="description"
-        id="description"
-        placeholder="Enter Identificator"
-      />
+      <input type="text" class="form-control" formControlName="description" id="description"
+        placeholder="Enter Identificator" />
     </form>
   </div>
   <div class="modal-footer">
@@ -106,7 +90,9 @@
     </h4>
   </div>
   <div class="modal-confirm-body">
-    <b><p>¿Are you sure to delete this category?</p></b>
+    <b>
+      <p>¿Are you sure to delete this category?</p>
+    </b>
   </div>
   <div class="modal-footer">
     <button type="button" class="btn btn-danger" (click)="OnDelete()">
@@ -117,4 +103,3 @@
     </button>
   </div>
 </ng-template>
-

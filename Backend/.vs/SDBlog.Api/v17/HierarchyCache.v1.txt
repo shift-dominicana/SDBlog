@@ -1,0 +1,332 @@
+﻿++Solution 'SDBlog.Api' ‎(6 of 6 projects)
+i:{00000000-0000-0000-0000-000000000000}:SDBlog.Api.sln
+++SDBlog.Api
+i:{00000000-0000-0000-0000-000000000000}:SDBlog.Api
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\bin\debug\net5.0\sdblog.api.dll
+++Connected Services 
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1547
+++Dependencies
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1546
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:>872
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:>871
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:>869
+i:{096b7575-4d24-4483-b798-61721eab3d6f}:>870
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:>1350
+++Properties
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\properties\
+++Controllers
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\controllers\
+++Base
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\controllers\base\
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\base\
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\base\
+++BaseController.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\controllers\base\basecontroller.cs
+++ControllerBasico.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\controllers\base\controllerbasico.cs
+++IBaseController.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\controllers\base\ibasecontroller.cs
+++CategoryController.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\controllers\categorycontroller.cs
+++PostController.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\controllers\postcontroller.cs
+++PostTagController.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\controllers\posttagcontroller.cs
+++TagController.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\controllers\tagcontroller.cs
+++UserController.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\controllers\usercontroller.cs
+++Migrations
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\migrations\
+++appsettings.json
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\appsettings.json
+++appsettings.Development.json
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\appsettings.development.json
+++Program.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\program.cs
+++Startup.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\startup.cs
+++StartupExtension.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\startupextension.cs
+++No service dependencies discovered
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1548
+++Analyzers
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:analyzers
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:analyzers
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:analyzers
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:analyzers
+i:{096b7575-4d24-4483-b798-61721eab3d6f}:analyzers
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:analyzers
+++Frameworks
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:frameworks
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:frameworks
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:frameworks
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:frameworks
+i:{096b7575-4d24-4483-b798-61721eab3d6f}:frameworks
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:frameworks
+++Packages
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:packages
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:packages
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:packages
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:packages
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:packages
+++Projects
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:projects
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:projects
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:projects
+i:{096b7575-4d24-4483-b798-61721eab3d6f}:projects
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:projects
+++launchSettings.json
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\properties\launchsettings.json
+++20220216025241_Initial-Full.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\migrations\20220216025241_initial-full.cs
+++MainDbContextModelSnapshot.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\migrations\maindbcontextmodelsnapshot.cs
+++Microsoft.AspNetCore.Analyzers
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{096b7575-4d24-4483-b798-61721eab3d6f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{096b7575-4d24-4483-b798-61721eab3d6f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{096b7575-4d24-4483-b798-61721eab3d6f}:c:\users\juan\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:c:\users\juan\.nuget\packages\microsoft.entityframeworkcore.analyzers\5.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\microsoft.netcore.app
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\microsoft.netcore.app
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\microsoft.netcore.app
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\microsoft.netcore.app
+i:{096b7575-4d24-4483-b798-61721eab3d6f}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.services\microsoft.netcore.app
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.testing\microsoft.netcore.app
+++MailKit (2.14.0)
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1570
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:>1619
+++Microsoft.AspNetCore.Authentication.JwtBearer (5.0.9)
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1567
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (5.0.9)
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1566
+++Microsoft.EntityFrameworkCore (5.0.9)
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1561
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:>1582
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:>1637
+++Microsoft.EntityFrameworkCore.Design (5.0.9)
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1563
+++Microsoft.EntityFrameworkCore.SqlServer (5.0.9)
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1562
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:>1583
+++Microsoft.EntityFrameworkCore.Tools (5.0.9)
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1568
+++StructureMap (4.7.1)
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1560
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:>1610
+++StructureMap.Microsoft.DependencyInjection (2.0.0)
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1569
+++Swashbuckle.AspNetCore (6.1.5)
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1564
+++System.Linq.Queryable (4.3.0)
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:>1565
+++SDBlog.BusinessLayer
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\sdblog.businesslayer.csproj
+i:{00000000-0000-0000-0000-000000000000}:SDBlog.BusinessLayer
+i:{096b7575-4d24-4483-b798-61721eab3d6f}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\bin\debug\net5.0\sdblog.businesslayer.dll
+++SDBlog.Core
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\sdblog.core.csproj
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\bin\debug\net5.0\sdblog.core.dll
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\bin\debug\net5.0\sdblog.core.dll
+i:{00000000-0000-0000-0000-000000000000}:SDBlog.Core
+++SDBlog.DataModel
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\sdblog.datamodel.csproj
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\bin\debug\net5.0\sdblog.datamodel.dll
+i:{00000000-0000-0000-0000-000000000000}:SDBlog.DataModel
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\bin\debug\net5.0\sdblog.datamodel.dll
+++SDBlog.Services
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.services\sdblog.services.csproj
+i:{00000000-0000-0000-0000-000000000000}:SDBlog.Services
+++20220216025241_Initial-Full.Designer.cs
+i:{b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.api\migrations\20220216025241_initial-full.designer.cs
+++Dtos
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\dtos\
+++Categories
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\dtos\categories\
+++CategoryDto.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\dtos\categories\categorydto.cs
+++Posts
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\dtos\posts\
+++PostTags
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\dtos\posttags\
+++Tags
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\dtos\tags\
+++Users
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\dtos\users\
+++Interfaces
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\interfaces\
+i:{096b7575-4d24-4483-b798-61721eab3d6f}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.services\interfaces\
+++ICategoryService.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\interfaces\icategoryservice.cs
+++IPostService.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\interfaces\ipostservice.cs
+++IPostTagService.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\interfaces\iposttagservice.cs
+++ITagService.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\interfaces\itagservice.cs
+++IUserService.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\interfaces\iuserservice.cs
+++Mappers
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\mappers\
+++CategoryMap.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\mappers\categorymap.cs
+++PostMap.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\mappers\postmap.cs
+++PostTagMap.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\mappers\posttagmap.cs
+++TagMap.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\mappers\tagmap.cs
+++UserMap.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\mappers\usermap.cs
+++Services
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\services\
+++CategoryService.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\services\categoryservice.cs
+++PostService.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\services\postservice.cs
+++PostTagService.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\services\posttagservice.cs
+++TagService.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\services\tagservice.cs
+++UserService.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\services\userservice.cs
+++Settings
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\settings\
+++Validators
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\validators\
+++CategoryValidator.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\validators\categoryvalidator.cs
+++PostTagValidator.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\validators\posttagvalidator.cs
+++PostValidator.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\validators\postvalidator.cs
+++TagValidator.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\validators\tagvalidator.cs
+++UserValidator.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\validators\uservalidator.cs
+++BaseAbstractValidator.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\base\baseabstractvalidator.cs
+++BaseRepository.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\base\baserepository.cs
+++IBaseRepository.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\base\ibaserepository.cs
+++PostDto.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\dtos\posts\postdto.cs
+++PostTagDto.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\dtos\posttags\posttagdto.cs
+++TagDto.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\dtos\tags\tagdto.cs
+++UserDto.cs
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.businesslayer\dtos\users\userdto.cs
+++AutoMapper.Extensions.Microsoft.DependencyInjection (8.1.1)
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:>1613
+++FluentValidation (10.3.0)
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:>1615
+++MimeKit (2.14.0)
+i:{9f74214b-4d38-41a4-9d7d-05541479cbdc}:>1617
+++Classes
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\classes\
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\classes\
+++Context
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\context\
+++Entities
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entities\
+++Category.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entities\category.cs
+++Post.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entities\post.cs
+++PostTag.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entities\posttag.cs
+++Tag.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entities\tag.cs
+++User.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entities\user.cs
+++EntitiesConfig
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entitiesconfig\
+++PageCollection.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\classes\pagecollection.cs
+++MainDbContext.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\context\maindbcontext.cs
+++CategoryConfig.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entitiesconfig\categoryconfig.cs
+++PostConfig.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entitiesconfig\postconfig.cs
+++PostTagConfig.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entitiesconfig\posttagconfig.cs
+++TagConfig.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entitiesconfig\tagconfig.cs
+++UserConfig.cs
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.datamodel\entitiesconfig\userconfig.cs
+++Microsoft.EntityFrameworkCore.Relational (5.0.9)
+i:{15895b89-c11e-4ab5-9148-893b408cf899}:>1584
+++Enums
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\enums\
+++Extensions
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\extensions\
+++DtoBase.cs
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\base\dtobase.cs
+++EntityBase.cs
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\base\entitybase.cs
+++PaginatorBase.cs
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\base\paginatorbase.cs
+++OperationResult.cs
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\classes\operationresult.cs
+++EntityEstatus.cs
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\enums\entityestatus.cs
+++SizeTypes.cs
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\enums\sizetypes.cs
+++EFFilterExtensions.cs
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\extensions\effilterextensions.cs
+++FluentValidationExtensions.cs
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.core\extensions\fluentvalidationextensions.cs
+++FluentValidation.AspNetCore (10.3.0)
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:>1638
+++FluentValidation.DependencyInjectionExtensions (10.3.0)
+i:{4255ab1d-89c1-4deb-b49a-b660ba4b65ba}:>1636
+++Implementations
+i:{096b7575-4d24-4483-b798-61721eab3d6f}:c:\users\juan\documents\1 - wk_directory\sd blog project\backend\sdblog.services\implementations\
+++SDBlog.Testing
+i:{00000000-0000-0000-0000-000000000000}:SDBlog.Testing
+++xunit.analyzers
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:c:\users\juan\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++AutoMapper (10.1.1)
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:>1616
+++coverlet.collector (1.3.0)
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:>1622
+++FakeItEasy (7.1.0)
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:>1624
+++FluentAssertions (6.0.0)
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:>1612
+++Microsoft.NET.Test.Sdk (16.7.1)
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:>1611
+++Moq (4.16.1)
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:>1620
+++xunit (2.4.1)
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:>1614
+++xunit.runner.visualstudio (2.4.3)
+i:{db72cca8-c2f3-4e99-87cb-73652b771595}:>1618

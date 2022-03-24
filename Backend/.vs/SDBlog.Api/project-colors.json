@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed": {
+      "ProjectGuid": "b7a431cd-4b36-4fcf-ba23-ea7890a4d3ed",
+      "DisplayName": "SDBlog.Api",
+      "ColorIndex": 0
+    },
+    "15895b89-c11e-4ab5-9148-893b408cf899": {
+      "ProjectGuid": "15895b89-c11e-4ab5-9148-893b408cf899",
+      "DisplayName": "SDBlog.DataModel",
+      "ColorIndex": 1
+    },
+    "db72cca8-c2f3-4e99-87cb-73652b771595": {
+      "ProjectGuid": "db72cca8-c2f3-4e99-87cb-73652b771595",
+      "DisplayName": "SDBlog.Testing",
+      "ColorIndex": 2
+    },
+    "4255ab1d-89c1-4deb-b49a-b660ba4b65ba": {
+      "ProjectGuid": "4255ab1d-89c1-4deb-b49a-b660ba4b65ba",
+      "DisplayName": "SDBlog.Core",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "9f74214b-4d38-41a4-9d7d-05541479cbdc": {
+      "ProjectGuid": "9f74214b-4d38-41a4-9d7d-05541479cbdc",
+      "DisplayName": "SDBlog.BusinessLayer",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
