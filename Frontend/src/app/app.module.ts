@@ -28,6 +28,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CrudCategoryComponent } from './components/crud-category/crud-category.component';
 import { ViewOrdersComponent } from './components/view-orders/view-orders.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CrudTagComponent } from './components/crud-tag/crud-tag.component';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
@@ -45,6 +46,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
     TopBarComponent,
     CrudCategoryComponent,
     ViewOrdersComponent,
+    CrudTagComponent,
   ],
   imports: [
     CommonModule,

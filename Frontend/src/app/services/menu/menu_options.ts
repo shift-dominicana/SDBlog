@@ -33,6 +33,11 @@ export const getMenuData: any[] = [
           key: 'crud-category',
           url: '/mantenimientos/prod-categorias',
         },
+        {
+          title: 'Tags',
+          key: 'crud-tags',
+          url: '/mantenimientos/tags',
+        }
       ],
     },
     {

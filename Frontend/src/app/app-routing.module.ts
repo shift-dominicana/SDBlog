@@ -6,6 +6,7 @@ import { CrudProductComponent } from './components/crud-product/crud-product.com
 import { ViewUsersComponent } from './components/view-users/view-users.component';
 import { CrudCategoryComponent } from './components/crud-category/crud-category.component';
 import { ViewOrdersComponent } from './components/view-orders/view-orders.component';
+import { CrudTagComponent } from './components/crud-tag/crud-tag.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,11 @@ const routes: Routes = [
     path: 'mantenimientos/prod-categorias',
     component: CrudCategoryComponent,
     data: { title: 'Productos' }
+  },  
+  {
+    path: 'mantenimientos/tags',
+    component: CrudTagComponent,
+    data: { title: 'Tags' }
   },  
   {
     path: 'consultas/usuarios',
