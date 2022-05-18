@@ -37,6 +37,11 @@ export const getMenuData: any[] = [
           title: 'Tags',
           key: 'crud-tags',
           url: '/mantenimientos/tags',
+        },
+        {
+          title: 'Users',
+          key: 'crud-users',
+          url: '/mantenimientos/usuarios',
         }
       ],
     },

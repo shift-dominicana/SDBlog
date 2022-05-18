@@ -7,6 +7,7 @@ import { ViewUsersComponent } from './components/view-users/view-users.component
 import { CrudCategoryComponent } from './components/crud-category/crud-category.component';
 import { ViewOrdersComponent } from './components/view-orders/view-orders.component';
 import { CrudTagComponent } from './components/crud-tag/crud-tag.component';
+import { CrudUserComponent } from './components/crud-user/crud-user.component';
 
 const routes: Routes = [
   {
@@ -40,8 +41,8 @@ const routes: Routes = [
     data: { title: 'Tags' }
   },  
   {
-    path: 'consultas/usuarios',
-    component: ViewUsersComponent,
+    path: 'mantenimientos/usuarios',
+    component: CrudUserComponent,
     data: { title: 'Usuarios' }
   },
   {
