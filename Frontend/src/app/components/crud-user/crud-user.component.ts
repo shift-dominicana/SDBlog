@@ -93,7 +93,7 @@ export class CrudUserComponent implements OnInit {
     this.modalService.open(content, {
       centered: true,
       backdrop: 'static',
-      size:'xl',
+      size:'md',
       ariaLabelledBy: 'modal-basic-title'
     })
       .result.then((result) => {

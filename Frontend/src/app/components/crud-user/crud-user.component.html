@@ -1,122 +1,126 @@
 <div>
 
-    <div class="col-lg-6">
-      <div class="card">
-  
-        <div class="card-body">
-  
-          <div class="form-group row">
-            <label class="col-sm-4 col-form-label title" >Users</label>
-            <div class="col-sm-7">
-              <button type="button" class="btn btn-success to-right mt-3" (click)="openModal(modalData, '')">
-                Add
-              </button>
-            </div>
+  <div class="col-lg-6">
+    <div class="card">
+
+      <div class="card-body">
+
+        <div class="form-group row">
+          <label class="col-sm-4 col-form-label title">Users</label>
+          <div class="col-sm-7">
+            <button type="button" class="btn btn-success to-right mt-3" (click)="openModal(modalData, '')">
+              Add
+            </button>
           </div>
-  
-  
-          <table class="table">
-            <thead>
-              <tr>
-                <th class="text-center" scope="col">Id</th>
-                <th class="text-center" scope="col">Name</th>
-                <th class="text-center" scope="col">Description</th>
-                <th class="text-center" scope="col"></th>
-                <th class="text-center" scope="col"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr *ngFor="let user of UserList">
-                <td class="text-center">{{ user.id }}</td>
-                <td class="text-center">{{ user.userName }}</td>
-                <td class="text-center">{{ user.firstName }}</td>
-                <td class="text-center">{{ user.lastName }}</td>
-                <td class="text-right">
-                  <a href="javascript: void(0);" class="btn btn-info btn-sm" slot="actions"
-                    (click)="openModal(modalData, user)">
-                    <i class="fe fe-edit mr-1"></i> Edit
-                  </a>
-                </td>
-  
-                <td class="text-right">
-                  <a href="javascript: void(0);" class="btn btn-danger btn-sm" slot="actions"
-                    (click)="openConfirmDelete(modalConfirm, user)">
-                    <i class="fe fe-trash mr-1"></i> Remove
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
         </div>
+
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="text-center" scope="col">Id</th>
+              <th class="text-center" scope="col">Name</th>
+              <th class="text-center" scope="col">Description</th>
+              <th class="text-center" scope="col"></th>
+              <th class="text-center" scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of UserList">
+              <td class="text-center">{{ user.id }}</td>
+              <td class="text-center">{{ user.userName }}</td>
+              <td class="text-center">{{ user.firstName }}</td>
+              <td class="text-center">{{ user.lastName }}</td>
+              <td class="text-right">
+                <a href="javascript: void(0);" class="btn btn-info btn-sm" slot="actions"
+                  (click)="openModal(modalData, user)">
+                  <i class="fe fe-edit mr-1"></i> Edit
+                </a>
+              </td>
+
+              <td class="text-right">
+                <a href="javascript: void(0);" class="btn btn-danger btn-sm" slot="actions"
+                  (click)="openConfirmDelete(modalConfirm, user)">
+                  <i class="fe fe-trash mr-1"></i> Remove
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
-  
-  <ng-template #modalData let-modal>
-    <div class="modal-header">
-      <h4 class="modal-title" id="modal-basic-title">
-        User
-      </h4>
-      <button type="button" class="close" aria-label="Close" (click)="closeModalApp()">
-        <span aria-hidden="true">×</span>
-      </button>
-    </div>
-    <div class="modal-body">
-      <form [formGroup]="saveProfileForm" (ngSubmit)="onSubmit()">
-        <label for="">Id</label>
-        <input type="text" class="form-control" formControlName="Id" id="Id" disabled />
-  
-        <label for="">Nombre de usuario</label>
-        <input type="text" class="form-control" formControlName="userName" id="userName" placeholder="" />
-  
-        <label for="">Clave</label>
-        <input type="password" class="form-control" formControlName="password" id="password" />
+</div>
 
-        <label for="">Email</label>
-        <input type="text" class="form-control" formControlName="email" id="email" placeholder="" />
+<ng-template #modalData let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">
+      User
+    </h4>
+    <button type="button" class="close" aria-label="Close" (click)="closeModalApp()">
+      <span aria-hidden="true">×</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form [formGroup]="saveProfileForm" (ngSubmit)="onSubmit()" class="form-inline">
+      <label for="">Id</label>
+      <input type="text" class="form-control" formControlName="Id" id="Id" disabled />
 
-        <label for="">Nombre</label>
-        <input type="text" class="form-control" formControlName="firstName" id="firstName" placeholder="" />
+      <label for="">Nombre de usuario</label>
+      <input type="text" class="form-control" formControlName="userName" id="userName" placeholder="" />
 
-        <label for="">Apellido</label>
-        <input type="text" class="form-control" formControlName="lastName" id="lastName" placeholder="" />
+      <label for="">Clave</label>
+      <input type="password" class="form-control" formControlName="password" id="password" />
 
-        <label for="">Fecha de nacimiento</label>
-        <input type="date" class="form-control" formControlName="dateOfBirth" id="dateOfBirth" placeholder="" />
+      <label for="">Email</label>
+      <input type="text" class="form-control" formControlName="email" id="email" placeholder="" />
 
-        <label for="">Es Admin</label>
-        <input type="checkbox" class="form-control" formControlName="isAdmin" id="isAdmin" placeholder="" />
+      <label for="">Nombre</label>
+      <input type="text" class="form-control" formControlName="firstName" id="firstName" placeholder="" />
 
-        
-      </form>
-    </div>
-    <div class="modal-footer">
-      <button type="button" class="btn btn-primary" (click)="onSubmit()">
-        Save
-      </button>
-      <button type="button" class="btn btn-secondary" (click)="closeModalApp()">
-        Close
-      </button>
-    </div>
-  </ng-template>
-  
-  <ng-template #modalConfirm let-modal>
-    <div class="modal-header">
-      <h4 class="modal-title" id="modal-basic-title">
-        Confirm
-      </h4>
-    </div>
-    <div class="modal-confirm-body">
-      <b>
-        <p>¿Are you sure to delete this user?</p>
-      </b>
-    </div>
-    <div class="modal-footer">
-      <button type="button" class="btn btn-danger" (click)="OnDelete()">
-        Save
-      </button>
-      <button type="button" class="btn btn-secondary" (click)="closeModalApp()">
-        Close
-      </button>
-    </div>
-  </ng-template>
+      <label for="">Apellido</label>
+      <input type="text" class="form-control" formControlName="lastName" id="lastName" placeholder="" />
+
+      <label for="">Fecha de nacimiento</label>
+      <input type="date" class="form-control" formControlName="dateOfBirth" id="dateOfBirth" placeholder="" />
+      
+      <br>
+      <label class="main">Es Admin
+        <input type="checkbox" checked="">
+        <span class="geekmark"></span>
+      </label>
+
+
+
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary" (click)="onSubmit()">
+      Save
+    </button>
+    <button type="button" class="btn btn-secondary" (click)="closeModalApp()">
+      Close
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #modalConfirm let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">
+      Confirm
+    </h4>
+  </div>
+  <div class="modal-confirm-body">
+    <b>
+      <p>¿Are you sure to delete this user?</p>
+    </b>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-danger" (click)="OnDelete()">
+      Save
+    </button>
+    <button type="button" class="btn btn-secondary" (click)="closeModalApp()">
+      Close
+    </button>
+  </div>
+</ng-template>
