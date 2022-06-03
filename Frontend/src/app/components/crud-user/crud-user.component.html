@@ -19,8 +19,9 @@
           <thead>
             <tr>
               <th class="text-center" scope="col">Id</th>
-              <th class="text-center" scope="col">Name</th>
-              <th class="text-center" scope="col">Description</th>
+              <th class="text-center" scope="col">User</th>
+              <th class="text-center" scope="col">FirstName</th>
+              <th class="text-center" scope="col">LastName</th>
               <th class="text-center" scope="col"></th>
               <th class="text-center" scope="col"></th>
             </tr>
@@ -64,7 +65,7 @@
   <div class="modal-body">
     <form [formGroup]="saveProfileForm" (ngSubmit)="onSubmit()" class="form-inline">
       <label for="">Id</label>
-      <input type="text" class="form-control" formControlName="Id" id="Id" disabled />
+      <input type="text" class="form-control" formControlName="id" id="id" disabled />
 
       <label for="">Nombre de usuario</label>
       <input type="text" class="form-control" formControlName="userName" id="userName" placeholder="" />
@@ -82,11 +83,11 @@
       <input type="text" class="form-control" formControlName="lastName" id="lastName" placeholder="" />
 
       <label for="">Fecha de nacimiento</label>
-      <input type="date" class="form-control" formControlName="dateOfBirth" id="dateOfBirth" placeholder="" />
+      <input type="text" class="form-control" formControlName="dateOfBirth" id="dateOfBirth" placeholder="yyyy-MM-dd"/>
       
       <br>
       <label class="main">Es Admin
-        <input type="checkbox" checked="">
+        <input type="checkbox" checked="" formControlName="isAdmin" id="isAdmin">
         <span class="geekmark"></span>
       </label>
 

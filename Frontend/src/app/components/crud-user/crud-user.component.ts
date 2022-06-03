@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { User } from 'src/app/models/User';
 import { UserService } from 'src/app/services/user/user.service';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-crud-user',
@@ -16,29 +17,30 @@ export class CrudUserComponent implements OnInit {
   message: string;
   closeResult: string;
   selectedUser: User;
+
   constructor(
     private fb: FormBuilder,
     public userService: UserService,
     private modalService: NgbModal) { }
 
   ngOnInit(): void {
-    this.getCategories();
+    this.getUsers();
 
     this.saveProfileForm = this.fb.group({
-      Id: [''],
+      id: [''],
       userName: [''],
       password: [''],
       email: [''],
       firstName: [''],
       lastName: [''],
-      dateOfBirth: [''],
-      isAdmin: ['']
+      dateOfBirth: [Date],
+      isAdmin: [Boolean]
     });
 
     this.selectedUser = null;
   }
 
-  getCategories() {
+  getUsers() {
     this.userService.getUsers().subscribe(
       data => {
         this.UserList = data
@@ -62,8 +64,8 @@ export class CrudUserComponent implements OnInit {
     );
   }
 
-  createUser(category: any){
-    this.userService.create(category).subscribe(
+  createUser(user: any){
+    this.userService.create(user).subscribe(
       response =>{
         console.log(response);
         window.location.reload();
@@ -112,14 +114,14 @@ export class CrudUserComponent implements OnInit {
         firstName: "",
         lastName: "",
         dateOfBirth: "",
-        isAdmin: ""
+        isAdmin: false
       });
       this.selectedUser = null;
     }
     else 
     {
       this.saveProfileForm.patchValue({
-        Id: user.id,
+        id: user.id,
         userName: user.userName,
         password: user.password,
         email: user.email,
@@ -175,8 +177,14 @@ export class CrudUserComponent implements OnInit {
     {
       let newUser = new User();
       newUser.id = 0;
-      newUser.firstName = this.saveProfileForm.value.name;
-      newUser.lastName = this.saveProfileForm.value.description;
+      newUser.firstName = this.saveProfileForm.value.firstName;
+      newUser.lastName = this.saveProfileForm.value.lastName;
+      newUser.email = this.saveProfileForm.value.email;
+      newUser.userName = this.saveProfileForm.value.userName;
+      newUser.dateOfBirth = this.saveProfileForm.value.dateOfBirth;
+      newUser.isAdmin = this.saveProfileForm.value.isAdmin;
+      newUser.password = this.saveProfileForm.value.password;
+
       this.createUser(JSON.stringify(newUser))
       console.log(JSON.stringify(newUser))
     }
